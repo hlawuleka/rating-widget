@@ -6,7 +6,7 @@ var router  = express.Router();
 
 var connection = mysql.createConnection({
     host: 'localhost',
-    database: 'ratingWidget',
+    database: 'mydevnxl_portfolio_db',
     user: 'root',
     password: 'root'
 });
